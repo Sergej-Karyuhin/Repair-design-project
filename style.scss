@@ -1,7 +1,57 @@
-$qwerty: red;
+* {
+  margin: 0;
+  padding: 0;
+}
+@mixin block_height ($height) {
+  height: $height;
+}
 
 .wrapper {
-  width: 100px;
-  height: 100px;
-  background-color: $qwerty;
+  width: 1440px;
+  margin: 0 auto;
+
+  .section_1 {
+    @include block_height(838px);
+    background-color: red;
+  }
+  .section_2 {
+    @include block_height(1241px);
+    background-color: yellow;
+  }
+  .section_3 {
+    @include block_height(1401px);
+    background-color: green;
+  }
+  .section_4 {
+    @include block_height(725px);
+    background-color: red;
+  }
+  .section_5 {
+    @include block_height(1048px);
+    background-color: yellow;
+  }
+  .section_6 {
+    @include block_height(1693px);
+    background-color: green;
+  }
+  .section_7 {
+    @include block_height(1669px);
+    background-color: red;
+  }
+  .section_8 {
+    @include block_height(1442px);
+    background-color: yellow;
+  }
+}
+
+@media all and (max-width: 375px) {
+  .wrapper {
+    width: 375px;
+    width: 100%;
+    .section_1, .section_2, .section_3,
+    .section_4, .section_5, .section_6,
+    .section_7, .section_8, {
+      background-color: gray;
+    }
+  }
 }
