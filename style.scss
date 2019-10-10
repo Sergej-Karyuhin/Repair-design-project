@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
 }
-@mixin block_height ($height) {
+body {
+  color: white;
+}
+@mixin block-height ($height) {
   height: $height;
 }
 
@@ -10,36 +13,181 @@
   width: 1440px;
   margin: 0 auto;
 
-  .section_1 {
-    @include block_height(838px);
-    background-color: red;
+  .section-1 {
+
+    @include block-height(838px);
+    .header__logo,
+    .header__contacts p,
+    .nav__item:first-child,
+    .aside__text {
+      color: #E3B873;
+    }
+    background-color: #131313;
+
+    .section-1__header {
+      height: 83px;
+      display: flex;
+      .header__container {
+        width: 1256px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .header__nav {
+          display: flex;
+          list-style: none;
+        }
+        .nav__item {
+          margin-right: 47px;
+        }
+        .nav__item:last-child {
+          margin-right: 0;
+        }
+        .header__contacts {
+          display: flex;
+        }
+        .header__contacts p {
+          margin-right: 45px;
+          text-decoration-line: underline;
+          align-self: center;
+        }
+        .contacts__button {
+          width: 161px;
+          height: 37px;
+          background-color: #E3B873;
+          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+          border-radius: 2px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          font-size: 11px;
+          border: 0;
+        }
+      }
+    }
+
+    .rostov-on-don {
+      display: flex;
+      .rostov-on-don__aside {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 82px;
+        height: 707px;
+        .aside__text, .aside__line {
+          transform: rotate(90deg);
+        }
+        .aside__line {
+          position: relative;
+          top: 80px;
+          width: 51px;
+          height: 1px;
+          border-top: 1.5px solid #E3B873;
+        }
+      }
+      .rostov-on-don__content {
+        display: flex;
+        align-items: center;
+        padding-left: 60px;
+        background-image: url(assets/img/section-1__img.png);
+        opacity: 0.3;
+        width: 1356px;
+        height: 707px;
+      }
+      .rostov-on-don__content__title {
+        text-transform: uppercase;
+        font-size: 40px;
+      }
+      .rostov-on-don__content__title span {
+        color: #E3B873;
+      }
+      .rostov-on-don__content__text {
+        padding-top: 19px;
+        padding-bottom: 41px;
+        font-size: 22px;
+        line-height: 30px;
+      }
+      .rostov-on-don__content__buttons__item-1,
+      .rostov-on-don__content__buttons__item-2 {
+        width: 207px;
+        height: 51px;
+        border-radius: 2px;
+        color: #FFFFFF;
+      }
+      .rostov-on-don__content__buttons__item-1 {
+        background: #E3B873;
+        box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+        border: 0;
+      }
+      .rostov-on-don__content__buttons__item-2 {
+        margin-left: 20px;
+        background: none;
+        border: 1px solid #FFFFFF;
+      }
+    }
+
+    .scroll-down {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 247px;
+      height: 97px;
+      position: relative;
+      bottom: 50px;
+      background: #131313;
+      .scroll-down__content {
+        display: flex;
+        width: 150px;
+        height: 29px;
+        .scroll-down__content__text {
+          margin-right: 12px;
+          align-self: center;
+          text-transform: uppercase;
+          font-size: 14px;
+          line-height: 19px;
+        }
+        .scroll-down__content__button {
+          width: 29px;
+          height: 29px;
+          border-radius: 100%;
+          background: none;
+          color: #E3B873;
+          border: 1.5px solid #E3B873;
+          transform: rotate(180deg);
+        }
+      }
+    }
+
   }
-  .section_2 {
-    @include block_height(1241px);
+
+
+
+  .section-2 {
+    @include block-height(1241px);
     background-color: yellow;
   }
-  .section_3 {
-    @include block_height(1401px);
+  .section-3 {
+    @include block-height(1401px);
     background-color: green;
   }
-  .section_4 {
-    @include block_height(725px);
+  .section-4 {
+    @include block-height(725px);
     background-color: red;
   }
-  .section_5 {
-    @include block_height(1048px);
+  .section-5 {
+    @include block-height(1048px);
     background-color: yellow;
   }
-  .section_6 {
-    @include block_height(1693px);
+  .section-6 {
+    @include block-height(1693px);
     background-color: green;
   }
-  .section_7 {
-    @include block_height(1669px);
+  .section-7 {
+    @include block-height(1669px);
     background-color: red;
   }
-  .section_8 {
-    @include block_height(1442px);
+  .section-8 {
+    @include block-height(1442px);
     background-color: yellow;
   }
 }
@@ -48,9 +196,9 @@
   .wrapper {
     width: 375px;
     width: 100%;
-    .section_1, .section_2, .section_3,
-    .section_4, .section_5, .section_6,
-    .section_7, .section_8, {
+    .section-1, .section-2, .section-3,
+    .section-4, .section-5, .section-6,
+    .section-7, .section-8, {
       background-color: gray;
     }
   }
