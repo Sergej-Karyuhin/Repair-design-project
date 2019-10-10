@@ -154,7 +154,77 @@ body {
 }
 .wrapper .section-2 {
   height: 1241px;
-  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  background-color: #131313;
+}
+.wrapper .section-2 .section-2__nav {
+  display: flex;
+  align-items: center;
+  align-self: flex-end;
+  height: 128px;
+  list-style: none;
+}
+.wrapper .section-2 .section-2__nav .section-2__nav__item {
+  margin-left: 60px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.3);
+}
+.wrapper .section-2 .section-2__nav .section-2__nav__item:first-child {
+  margin: 0;
+  color: #E3B873;
+  text-decoration: underline;
+}
+.wrapper .section-2 .section-2__content {
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects {
+  width: 442px;
+  height: 390px;
+  margin-left: 100px;
+}
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__title, .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__mini-title {
+  color: #E3B873;
+  text-transform: uppercase;
+}
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__title {
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+}
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__text {
+  margin-top: 34px;
+  font-size: 18px;
+  line-height: 29px;
+}
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__text__advantages {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__text__advantages__item {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__mini-text {
+  margin-top: 9px;
+}
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects .item-indent {
+  margin-right: 50px;
+}
+.wrapper .section-2 .section-2__content .section-2__content__slide {
+  display: flex;
+  justify-content: flex-end;
+}
+.wrapper .section-2 .section-2__content .section-2__content__slide .slide__img-1 {
+  width: 679px;
+  height: 482px;
+}
+.wrapper .section-2 .section-2__content .section-2__content__slide .slide__img-2 {
+  margin-left: 21px;
 }
 .wrapper .section-3 {
   height: 1401px;

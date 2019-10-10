@@ -164,7 +164,80 @@ body {
 
   .section-2 {
     @include block-height(1241px);
-    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+      .section-2__nav {
+        display: flex;
+        align-items: center;
+        align-self: flex-end;
+        height: 128px;
+        list-style: none;
+        .section-2__nav__item {
+          margin-left: 60px;
+          text-transform: uppercase;
+          font-size: 14px;
+          line-height: 19px;
+          color: rgba(255, 255, 255, 0.3);
+        }
+        .section-2__nav__item:first-child {
+          margin: 0;
+          color: #E3B873;
+          text-decoration: underline;
+        }
+      }
+      .section-2__content {
+        display: flex;
+        justify-content: space-between;
+        .section-2__content__completed-projects {
+          width: 442px;
+          height: 390px;
+          margin-left: 100px;
+          .completed-projects__title, .completed-projects__mini-title {
+            color: #E3B873;
+            text-transform: uppercase;
+          }
+          .completed-projects__title {
+            font-size: 27px;
+            line-height: 37px;
+            letter-spacing: -0.07em;
+          }
+          .completed-projects__text {
+            margin-top: 34px;
+            font-size: 18px;
+            line-height: 29px;
+          }
+          .completed-projects__text__advantages {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 42px;
+          }
+          .completed-projects__text__advantages__item {
+            display: flex;
+            flex-direction: column;
+          }
+          .completed-projects__mini-text {
+            margin-top: 9px;
+          }
+          .item-indent {
+            margin-right: 50px;
+          }
+        }
+
+        .section-2__content__slide {
+          display: flex;
+          justify-content: flex-end;
+          .slide__img-1 {
+            width: 679px;
+            height: 482px;
+          }
+          .slide__img-2 {
+            margin-left: 21px;
+          }
+        }
+
+      }
+
   }
   .section-3 {
     @include block-height(1401px);
