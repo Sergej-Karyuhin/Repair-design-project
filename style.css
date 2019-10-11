@@ -311,12 +311,14 @@ body {
 }
 .wrapper .section-3 .section-3__checkbox {
   display: flex;
-  width: 286px;
+  width: 290px;
   height: 18px;
+  margin: 35px auto 0;
 }
 .wrapper .section-3 .section-3__checkbox .section-3__checkbox__input {
   width: 18px;
   height: 18px;
+  margin-right: 9px;
   align-self: center;
 }
 .wrapper .section-3 .section-3__checkbox .section-3__checkbox__text {
@@ -324,6 +326,67 @@ body {
   font-size: 16px;
   line-height: 22px;
   color: #181818;
+}
+.wrapper .section-3 .section-3__title {
+  display: flex;
+  flex-direction: column;
+  width: 257px;
+  height: 26px;
+  margin: 148px auto 0;
+}
+.wrapper .section-3 .section-3__title .section-3__title__text {
+  margin-bottom: 13px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #181818;
+}
+.wrapper .section-3 .section-3__title .section-3__img, .wrapper .section-3 .section-3__title .section-3__title__text {
+  align-self: center;
+}
+.wrapper .section-3 .section-3__types-of-repair {
+  width: 1236px;
+  height: 608px;
+  margin: 100px auto 0;
+  display: flex;
+}
+.wrapper .section-3 .section-3__types-of-repair .repair-text {
+  position: relative;
+  bottom: 130px;
+  left: 15px;
+  width: 300px;
+  height: 256px;
+  padding-top: 25px;
+  padding-left: 60px;
+  background-color: #FFF;
+}
+.wrapper .section-3 .section-3__types-of-repair .repair-text .repair-text__title {
+  margin-left: -15px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+.wrapper .section-3 .section-3__types-of-repair .repair-text .repair-text__ul {
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+.wrapper .section-3 .section-3__types-of-repair .repair__button {
+  width: 228px;
+  height: 54px;
+  border: 0;
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 160px;
+  left: 15px;
+}
+.wrapper .section-3 .section-3__types-of-repair__item:nth-child(1),
+.wrapper .section-3 .section-3__types-of-repair__item:nth-child(2) {
+  margin-right: 30px;
 }
 .wrapper .section-4 {
   height: 725px;
