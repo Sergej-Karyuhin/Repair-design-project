@@ -5,6 +5,7 @@
 
 body {
   color: #FFF;
+  background-color: gray;
 }
 
 .wrapper {
@@ -87,7 +88,6 @@ body {
   align-items: center;
   padding-left: 60px;
   background-image: url(assets/img/section-1__img.png);
-  opacity: 0.3;
   width: 1356px;
   height: 707px;
 }
@@ -266,7 +266,7 @@ body {
   margin: 0 auto;
 }
 .wrapper .section-3 .section-3__text-block .section-3__text-block__text {
-  margin-top: 99px;
+  padding-top: 99px;
   font-size: 18px;
   line-height: 34px;
   text-align: center;
@@ -276,7 +276,7 @@ body {
   display: flex;
   width: 769px;
   height: 51px;
-  margin: 92px auto 0;
+  margin: 170px auto 0;
 }
 .wrapper .section-3 .section-3__submit-form .section-3__submit-form__item__title {
   font-size: 15px;
@@ -520,8 +520,67 @@ body {
   margin-top: 20px;
 }
 .wrapper .section-5 {
-  height: 1048px;
-  background-color: yellow;
+  height: 1018px;
+  background-color: #FFF;
+}
+.wrapper .section-5 .section-5__content__wrapper {
+  position: relative;
+  top: 111px;
+  background-color: black;
+}
+.wrapper .section-5 .section-5__content {
+  width: 100%;
+  height: 864px;
+  background-image: url(assets/img/section-5__background-img.png);
+}
+.wrapper .section-5 .section-5__content .section-5__content__text {
+  padding-top: 137px;
+  padding-left: 99px;
+}
+.wrapper .section-5 .section-5__content .section-5__content__text .section-5__content__text_title {
+  margin-bottom: 47px;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.wrapper .section-5 .section-5__content .section-5__content__text .section-5__content__text__sub-title {
+  margin-bottom: 23px;
+  font-size: 20px;
+  line-height: 34px;
+  color: #E3B873;
+  text-decoration: underline;
+}
+.wrapper .section-5 .section-5__content .section-5__content__text .section-5__content__text__list {
+  list-style: none;
+}
+.wrapper .section-5 .section-5__content .section-5__content__text .section-5__content__text__list__item {
+  font-size: 20px;
+  line-height: 34px;
+  color: #FFFFFF;
+}
+.wrapper .section-5 .section-5__content .section-5__content__text .section-5__content__text__list__item:not(:last-child) {
+  margin-bottom: 15px;
+}
+.wrapper .section-5 .section-5__img-1 {
+  position: absolute;
+  bottom: 350px;
+  left: 600px;
+}
+.wrapper .section-5 .section-5__img-2 {
+  position: absolute;
+  bottom: -43px;
+  left: 600px;
+}
+.wrapper .section-5 .section-5__img-3 {
+  position: absolute;
+  bottom: 690px;
+  left: 1000px;
+}
+.wrapper .section-5 .section-5__img-4 {
+  position: absolute;
+  bottom: 30px;
+  left: 1000px;
 }
 .wrapper .section-6 {
   height: 1693px;
