@@ -526,7 +526,7 @@ body {
 .wrapper .section-5 .section-5__content__wrapper {
   position: relative;
   top: 111px;
-  background-color: black;
+  background-color: #131313;
 }
 .wrapper .section-5 .section-5__content {
   width: 100%;
@@ -667,6 +667,117 @@ body {
 .wrapper .section-6 .design-project .section-6__types-of-repair__item:nth-child(1),
 .wrapper .section-6 .design-project .section-6__types-of-repair__item:nth-child(2) {
   margin-right: 30px;
+}
+.wrapper .section-6 .steps {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 1073px;
+  background-color: #131313;
+}
+.wrapper .section-6 .steps .steps__container {
+  display: flex;
+  justify-content: space-between;
+  width: 1238px;
+  height: 686px;
+  margin: 0 auto;
+}
+.wrapper .section-6 .steps .steps__container .steps__text-content {
+  width: 337px;
+  height: 515px;
+}
+.wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__sub-title-1 {
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__title {
+  padding-top: 18px;
+  font-size: 27px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__paragraph-1 {
+  padding-top: 92px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__sub-title-2 {
+  padding-top: 22px;
+  font-size: 15px;
+  line-height: 23px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__paragraph-2 {
+  padding-top: 16px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+.wrapper .section-6 .steps .steps__container .steps__table {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text {
+  width: 766px;
+  height: 178px;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 22px;
+  color: gray;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__item-1 {
+  width: 128px;
+  height: 178px;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__item-2 {
+  width: 136px;
+  height: 178px;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__item-3 {
+  width: 100px;
+  height: 178px;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__h-active {
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: #FFFFFF;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__p-active {
+  padding-top: 17px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__h-1 {
+  font-size: 15px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__p-1 {
+  padding-top: 17px;
+  font-size: 15px;
+  line-height: 18px;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__h-2 {
+  padding-top: 36px;
+  text-decoration: underline;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__p-2 {
+  padding-top: 13px;
+}
+.wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__h-2-center {
+  padding-top: 55px;
+  text-decoration: underline;
 }
 .wrapper .section-7 {
   height: 1669px;
