@@ -845,7 +845,6 @@ body {
 
   .section-7 {
     @include block-height(2024px);
-    // background-color: red;
     .our-team {
       display: flex;
       flex-direction: column;
@@ -861,7 +860,7 @@ body {
         text-transform: uppercase;
         color: #FFFFFF;
       }
-      .our-team__text {
+      .our-team__text-1 {
         padding-top: 23px;
         font-size: 20px;
         line-height: 27px;
@@ -929,6 +928,109 @@ body {
             right: 35px;
             background: #E3B873;
             box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
+          }
+        }
+      }
+      .our-team__text-2 {
+        padding-top: 72px;
+        font-size: 20px;
+        line-height: 34px;
+        text-align: center;
+        color: #363636;
+      }
+    }
+
+
+    .our-clients {
+      background-color: #FFF;
+      height: 100%;
+      .our-clients__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding-top: 500px;
+        width: 1236px;
+        height: 642px;
+        .our-clients__title {
+          padding-bottom: 13px;
+          font-size: 20px;
+          line-height: 28px;
+          text-align: center;
+          text-transform: uppercase;
+          color: #181818;
+        }
+        .our-clients__text {
+          padding-bottom: 39px;
+          padding-top: 24px;
+          font-size: 20px;
+          line-height: 27px;
+          text-align: center;
+          color: #363636;
+        }
+
+        .clients {
+          display: flex;
+          .clients__item:not(:last-child) {
+            margin-right: 54px;
+          }
+          .clients__item {
+            width: 376px;
+            height: 428px;
+            background-color: azure;
+            .clients__item__title {
+              padding-top: 24px;
+              padding-left: 20px;
+              display: flex;
+              align-items: center;
+              .clients__item__title__text {
+                padding-left: 23px;
+                font-size: 18px;
+                line-height: 23px;
+                color: #181818;
+                font-weight: 900;
+              }
+            }
+            .clients__item__text {
+              padding: 22px 20px 0;
+              font-size: 15px;
+              line-height: 180%;
+              color: #959595;
+              text-transform: lowercase;
+            }
+            .clients__item__button-img {
+              padding-left: 5px;
+              width: 32px;
+              height: 30px;
+            }
+            .clients__item__buttons {
+              display: flex;
+              position: relative;
+              top: 35px;
+              .clients__item__button-1,
+              .clients__item__button-2 {
+                display: flex;
+                align-items: center;
+                height: 54px;
+                border: 0;
+                background: #E3B873;
+                box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+              }
+              .clients__item__button-1 {
+                margin-right: 2px;
+                width: 176px;
+              }
+              .clients__item__button-2 {
+                width: 118px;
+              }
+              .clients_button_text {
+                padding-left: 10px;
+                font-size: 15px;
+                line-height: 24px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+              }
+            }
           }
         }
       }
