@@ -584,7 +584,89 @@ body {
 }
 .wrapper .section-6 {
   height: 1693px;
-  background-color: green;
+}
+.wrapper .section-6 .design-project {
+  display: flex;
+  flex-direction: column;
+  height: 620px;
+  background-color: #FFF;
+}
+.wrapper .section-6 .design-project .design-project__title {
+  padding-top: 112px;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #181818;
+}
+.wrapper .section-6 .design-project .design-project__img {
+  padding-top: 13px;
+  width: 28px;
+  height: 28px;
+  align-self: center;
+}
+.wrapper .section-6 .design-project .design-project__text {
+  padding-top: 24px;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #363636;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair {
+  width: 1236px;
+  height: 735px;
+  margin: 100px auto 0;
+  display: flex;
+  list-style: none;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair-text-1,
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair-text-2,
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair-text-3 {
+  position: relative;
+  bottom: 130px;
+  left: 15px;
+  width: 300px;
+  padding-top: 25px;
+  padding-left: 60px;
+  background-color: #FFF;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair-text-1 {
+  height: 181px;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair-text-2 {
+  height: 256px;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair-text-3 {
+  height: 384px;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair-text__title {
+  margin-left: -15px;
+  font-size: 18px;
+  line-height: 25px;
+  color: #363636;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair-text__ul {
+  font-size: 15px;
+  line-height: 25px;
+  color: #959595;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair .repair__button {
+  width: 228px;
+  height: 54px;
+  border: 0;
+  background: #E3B873;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  position: relative;
+  bottom: 160px;
+  left: 15px;
+}
+.wrapper .section-6 .design-project .section-6__types-of-repair__item:nth-child(1),
+.wrapper .section-6 .design-project .section-6__types-of-repair__item:nth-child(2) {
+  margin-right: 30px;
 }
 .wrapper .section-7 {
   height: 1669px;
