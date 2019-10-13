@@ -780,11 +780,95 @@ body {
   text-decoration: underline;
 }
 .wrapper .section-7 {
-  height: 1669px;
-  background-color: red;
+  height: 2024px;
+}
+.wrapper .section-7 .our-team {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 501px;
+  background-color: #131313;
+}
+.wrapper .section-7 .our-team .our-team__title {
+  padding-top: 95px;
+  padding-bottom: 13px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.wrapper .section-7 .our-team .our-team__text {
+  padding-top: 23px;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.wrapper .section-7 .our-team .workers {
+  display: flex;
+  width: 1063px;
+  height: 504px;
+  list-style: none;
+}
+.wrapper .section-7 .our-team .workers .workers__item:not(:last-child) {
+  margin-right: 106px;
+}
+.wrapper .section-7 .our-team .workers .workers__item {
+  width: 272px;
+  height: 414px;
+  padding-top: 74px;
+}
+.wrapper .section-7 .our-team .workers .workers__item .workers__item__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 233px;
+  height: 137px;
+  position: relative;
+  bottom: 85px;
+  left: 20px;
+  background-color: #FFF;
+}
+.wrapper .section-7 .our-team .workers .workers__item .workers__item__text .workers__item__text__title {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #181818;
+}
+.wrapper .section-7 .our-team .workers .workers__item .workers__item__text .workers__item__text__prof {
+  padding-bottom: 20px;
+  padding-top: 5px;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #959595;
+}
+.wrapper .section-7 .our-team .workers .workers__item .workers__item__text .workers__item__text__button {
+  width: 233px;
+  height: 44px;
+  background: #E3B873;
+  border: 0;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.wrapper .section-7 .our-team .workers .workers__item .workers__item__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  bottom: 535px;
+  right: 35px;
+  background: #E3B873;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.5);
 }
 .wrapper .section-8 {
-  height: 1442px;
+  height: 1087px;
   background-color: yellow;
 }
 
