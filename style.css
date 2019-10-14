@@ -1140,15 +1140,75 @@ body {
   background-color: #181818;
 }
 
+.header {
+  height: 83px;
+  display: flex;
+}
+
+.header__logo,
+.header__contacts p,
+.nav__item:first-child,
+.aside__text {
+  color: #E3B873;
+}
+
 @media all and (max-width: 375px) {
   .wrapper {
     width: 375px;
-    width: 100%;
+    margin: 0;
+    /*---------*/
+    /*SECTION-1*/
+    /*---------*/
   }
-  .wrapper .section-1, .wrapper .section-2, .wrapper .section-3,
-.wrapper .section-4, .wrapper .section-5, .wrapper .section-6,
-.wrapper .section-7, .wrapper .section-8 {
-    background-color: gray;
+  .wrapper .header__nav, .wrapper .contacts__button, .wrapper .rostov-on-don__aside, .wrapper .scroll-down,
+.wrapper .section-2__nav, .wrapper .slide__img-1, .wrapper .slide__img-2, .wrapper .section-2__background-block,
+.wrapper .section-3__submit-form, .wrapper .section-3__checkbox, .wrapper .section-4, .wrapper .section-5__img-1,
+.wrapper .section-5__img-2, .wrapper .section-5__img-3, .wrapper .section-5__img-4,
+.wrapper .section-5__content__text__sub-title, .wrapper .section-5__content__text__list,
+.wrapper .steps__container, .wrapper .our-team__text-2, .wrapper .our-clients__container, .wrapper .footer {
+    display: none !important;
+  }
+  .wrapper .header {
+    height: 57px;
+  }
+  .wrapper .header__container {
+    width: 339px;
+  }
+  .wrapper .header__contacts p {
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: 0 !important;
+  }
+  .wrapper .header__logo {
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    color: #E3B873;
+  }
+  .wrapper #rostov-on-don__content-mobile {
+    padding-left: 18px;
+  }
+  .wrapper #rostov-on-don__content__title-mobile {
+    font-size: 23px;
+    line-height: 132.83%;
+  }
+  .wrapper #rostov-on-don__content__text-mobile {
+    font-size: 18px;
+    line-height: 135.84%;
+  }
+  .wrapper #rostov-on-don__content__buttons__item-1-mobile {
+    width: 339px;
+    height: 51px;
+  }
+  .wrapper #rostov-on-don__content__buttons__item-2-mobile {
+    margin-top: 26px;
+    width: 339px;
+    height: 51px;
+    margin-left: 0;
+  }
+  .wrapper .rostov-on-don__content__buttons__item-2 span {
+    display: none;
   }
 }
 

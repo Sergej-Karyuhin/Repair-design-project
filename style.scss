@@ -17,8 +17,6 @@ body {
 .wrapper {
   width: 1440px;
   margin: 0 auto;
-
-
   /*------*/
   /*HEADER*/
   /*------*/
@@ -1218,14 +1216,83 @@ body {
   }
 }
 
+.header {
+  height: 83px;
+  display: flex;
+}
+.header__logo,
+.header__contacts p,
+.nav__item:first-child,
+.aside__text {
+  color: #E3B873;
+}
+
+
+
 @media all and (max-width: 375px) {
   .wrapper {
     width: 375px;
-    width: 100%;
-    .section-1, .section-2, .section-3,
-    .section-4, .section-5, .section-6,
-    .section-7, .section-8, {
-      background-color: gray;
+    margin: 0;
+
+    .header__nav, .contacts__button, .rostov-on-don__aside, .scroll-down,
+    .section-2__nav, .slide__img-1, .slide__img-2, .section-2__background-block,
+    .section-3__submit-form, .section-3__checkbox, .section-4, .section-5__img-1,
+    .section-5__img-2, .section-5__img-3, .section-5__img-4,
+    .section-5__content__text__sub-title, .section-5__content__text__list,
+    .steps__container, .our-team__text-2, .our-clients__container, .footer {
+      display: none !important;
     }
+
+    /*---------*/
+    /*SECTION-1*/
+    /*---------*/
+    .header {
+      height: 57px;
+    }
+    .header__container {
+      width: 339px;
+    }
+    .header__contacts p {
+      font-size: 12px;
+      line-height: 14px;
+      color: #FFFFFF;
+      margin: 0 !important;
+    }
+    .header__logo {
+      font-size: 12px;
+      line-height: 14px;
+      text-transform: uppercase;
+      color: #E3B873;
+    }
+    #rostov-on-don__content-mobile {
+      padding-left: 18px;
+    }
+    #rostov-on-don__content__title-mobile {
+      font-size: 23px;
+      line-height: 132.83%;
+    }
+    #rostov-on-don__content__text-mobile {
+      font-size: 18px;
+      line-height: 135.84%;
+    }
+    #rostov-on-don__content__buttons__item-1-mobile {
+      width: 339px;
+      height: 51px;
+    }
+    #rostov-on-don__content__buttons__item-2-mobile {
+      margin-top: 26px;
+      width: 339px;
+      height: 51px;
+      margin-left: 0;
+    }
+    .rostov-on-don__content__buttons__item-2 span {
+      display: none;
+    }
+
+
+
+
+
+
   }
 }
