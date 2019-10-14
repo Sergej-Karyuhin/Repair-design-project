@@ -967,6 +967,99 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
 }
+.wrapper .section-7 .section-7__form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 883px;
+  height: 445px;
+  position: relative;
+  bottom: 715px;
+  margin: 0 auto;
+  background-color: #181818;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container {
+  width: 520px;
+  height: 377px;
+  border: 0;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__title {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__inputs-1-2 {
+  display: flex;
+  padding-top: 46px;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__inputs-1-2 .section-7__form__input-1 {
+  margin-right: 58px;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-1,
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-2,
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-3 {
+  width: 231px;
+  height: 17px;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  background-color: inherit;
+  color: #FFF;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__label-1,
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__label-2,
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__label-3 {
+  display: block;
+  padding-bottom: 7px;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-1::placeholder,
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-2::placeholder,
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-3::placeholder {
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__label-3 {
+  padding-top: 49px;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-3 {
+  width: 517px;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__checkbox {
+  display: flex;
+  align-items: center;
+  width: 290px;
+  margin: 0 auto;
+  padding-top: 46px;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__checkbox .section-7__form__checkbox__item {
+  width: 18px;
+  height: 18px;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__checkbox .section-7__form__checkbox__text {
+  padding-left: 9px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__button {
+  width: 200px;
+  height: 51px;
+  border: 0;
+  margin-top: 50px;
+  margin-left: 160px;
+  background: #E3B873;
+  box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+  font-size: 15px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
 .wrapper .section-8 {
   height: 1087px;
   background-color: yellow;
