@@ -10,61 +10,76 @@ body {
   height: $height;
 }
 
+
+/*--------------*/
+/*PAGE-CONTAINER*/
+/*-------------*/
 .wrapper {
   width: 1440px;
   margin: 0 auto;
 
-  .section-1 {
 
-    @include block-height(838px);
-    .header__logo,
-    .header__contacts p,
-    .nav__item:first-child,
-    .aside__text {
-      color: #E3B873;
-    }
-    background-color: #131313;
+  /*------*/
+  /*HEADER*/
+  /*------*/
+  .header {
+    height: 83px;
+    display: flex;
+  }
+  .header__logo,
+  .header__contacts p,
+  .nav__item:first-child,
+  .aside__text {
+    color: #E3B873;
+  }
 
-    .section-1__header {
-      height: 83px;
+  /*----------------------*/
+  /*HEADER / FOOTER STYLES*/
+  /*----------------------*/
+  .header__container {
+    width: 1256px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__nav {
       display: flex;
-      .header__container {
-        width: 1256px;
-        margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        .header__nav {
-          display: flex;
-          list-style: none;
-        }
-        .nav__item {
-          margin-right: 47px;
-        }
-        .nav__item:last-child {
-          margin-right: 0;
-        }
-        .header__contacts {
-          display: flex;
-        }
-        .header__contacts p {
-          margin-right: 45px;
-          text-decoration-line: underline;
-          align-self: center;
-        }
-        .contacts__button {
-          width: 161px;
-          height: 37px;
-          background-color: #E3B873;
-          box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
-          border-radius: 2px;
-          color: #FFFFFF;
-          text-transform: uppercase;
-          font-size: 11px;
-          border: 0;
-        }
-      }
+      list-style: none;
     }
+    .nav__item {
+      margin-right: 47px;
+    }
+    .nav__item:last-child {
+      margin-right: 0;
+    }
+    .header__contacts {
+      display: flex;
+    }
+    .header__contacts p {
+      margin-right: 45px;
+      text-decoration-line: underline;
+      align-self: center;
+    }
+    .contacts__button {
+      width: 161px;
+      height: 37px;
+      background-color: #E3B873;
+      box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+      border-radius: 2px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      font-size: 11px;
+      border: 0;
+    }
+  }
+
+
+  /*---------*/
+  /*SECTION-1*/
+  /*---------*/
+  .section-1 {
+    @include block-height(838px);
+    background-color: #131313;
 
     .rostov-on-don {
       display: flex;
@@ -161,7 +176,9 @@ body {
   }
 
 
-
+  /*---------*/
+  /*SECTION-2*/
+  /*---------*/
   .section-2 {
     @include block-height(1241px);
     display: flex;
@@ -272,7 +289,9 @@ body {
   }
 
 
-
+  /*---------*/
+  /*SECTION-3*/
+  /*---------*/
   .section-3 {
     @include block-height(1401px);
     background-color: #FFFFFF;
@@ -415,7 +434,9 @@ body {
   }
 
 
-
+  /*---------*/
+  /*SECTION-4*/
+  /*---------*/
   .section-4 {
     @include block-height(725px);
     display: flex;
@@ -566,7 +587,9 @@ body {
   }
 
 
-
+  /*---------*/
+  /*SECTION-5*/
+  /*---------*/
   .section-5 {
     @include block-height(1018px);
     background-color: #FFF;
@@ -632,7 +655,9 @@ body {
   }
 
 
-
+  /*---------*/
+  /*SECTION-6*/
+  /*---------*/
   .section-6 {
     @include block-height(1693px);
     .design-project {
@@ -842,7 +867,9 @@ body {
   }
 
 
-
+  /*---------*/
+  /*SECTION-7*/
+  /*---------*/
   .section-7 {
     @include block-height(2024px);
     .our-team {
@@ -1138,10 +1165,56 @@ body {
   }
 
 
-
+  /*---------*/
+  /*SECTION-8*/
+  /*---------*/
   .section-8 {
     @include block-height(1087px);
-    background-color: yellow;
+
+    .section-8__map {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 954px;
+      background-color: black;
+      .map__title {
+        padding-top: 285px;
+        font-size: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #E3B873;
+      }
+      .map__social-imgs {
+        display: flex;
+        padding-top: 26px;
+        .map__social__img-1,
+        .map__social__img-2 {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 28px;
+          height: 28px;
+          border-radius: 100%;
+          background-color: #E3B873;
+        }
+        .map__social__img-1 {
+          margin-right: 15px;
+        }
+      }
+      .map__img {
+        padding-top: 43px;
+      }
+    }
+
+    /*------*/
+    /*FOOTER*/
+    /*------*/
+    .footer {
+      display: flex;
+      height: 133px;
+      background-color: #181818;
+    }
   }
 }
 

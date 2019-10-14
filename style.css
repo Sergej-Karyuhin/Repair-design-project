@@ -8,50 +8,79 @@ body {
   background-color: gray;
 }
 
+/*--------------*/
+/*PAGE-CONTAINER*/
+/*-------------*/
 .wrapper {
   width: 1440px;
   margin: 0 auto;
+  /*------*/
+  /*HEADER*/
+  /*------*/
+  /*----------------------*/
+  /*HEADER / FOOTER STYLES*/
+  /*----------------------*/
+  /*---------*/
+  /*SECTION-1*/
+  /*---------*/
+  /*---------*/
+  /*SECTION-2*/
+  /*---------*/
+  /*---------*/
+  /*SECTION-3*/
+  /*---------*/
+  /*---------*/
+  /*SECTION-4*/
+  /*---------*/
+  /*---------*/
+  /*SECTION-5*/
+  /*---------*/
+  /*---------*/
+  /*SECTION-6*/
+  /*---------*/
+  /*---------*/
+  /*SECTION-7*/
+  /*---------*/
+  /*---------*/
+  /*SECTION-8*/
+  /*---------*/
 }
-.wrapper .section-1 {
-  height: 838px;
-  background-color: #131313;
-}
-.wrapper .section-1 .header__logo,
-.wrapper .section-1 .header__contacts p,
-.wrapper .section-1 .nav__item:first-child,
-.wrapper .section-1 .aside__text {
-  color: #E3B873;
-}
-.wrapper .section-1 .section-1__header {
+.wrapper .header {
   height: 83px;
   display: flex;
 }
-.wrapper .section-1 .section-1__header .header__container {
+.wrapper .header__logo,
+.wrapper .header__contacts p,
+.wrapper .nav__item:first-child,
+.wrapper .aside__text {
+  color: #E3B873;
+}
+.wrapper .header__container {
   width: 1256px;
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.wrapper .section-1 .section-1__header .header__container .header__nav {
+.wrapper .header__container .header__nav {
   display: flex;
   list-style: none;
 }
-.wrapper .section-1 .section-1__header .header__container .nav__item {
+.wrapper .header__container .nav__item {
   margin-right: 47px;
 }
-.wrapper .section-1 .section-1__header .header__container .nav__item:last-child {
+.wrapper .header__container .nav__item:last-child {
   margin-right: 0;
 }
-.wrapper .section-1 .section-1__header .header__container .header__contacts {
+.wrapper .header__container .header__contacts {
   display: flex;
 }
-.wrapper .section-1 .section-1__header .header__container .header__contacts p {
+.wrapper .header__container .header__contacts p {
   margin-right: 45px;
   text-decoration-line: underline;
   align-self: center;
 }
-.wrapper .section-1 .section-1__header .header__container .contacts__button {
+.wrapper .header__container .contacts__button {
   width: 161px;
   height: 37px;
   background-color: #E3B873;
@@ -61,6 +90,10 @@ body {
   text-transform: uppercase;
   font-size: 11px;
   border: 0;
+}
+.wrapper .section-1 {
+  height: 838px;
+  background-color: #131313;
 }
 .wrapper .section-1 .rostov-on-don {
   display: flex;
@@ -1062,7 +1095,49 @@ body {
 }
 .wrapper .section-8 {
   height: 1087px;
-  background-color: yellow;
+  /*------*/
+  /*FOOTER*/
+  /*------*/
+}
+.wrapper .section-8 .section-8__map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 954px;
+  background-color: black;
+}
+.wrapper .section-8 .section-8__map .map__title {
+  padding-top: 285px;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.wrapper .section-8 .section-8__map .map__social-imgs {
+  display: flex;
+  padding-top: 26px;
+}
+.wrapper .section-8 .section-8__map .map__social-imgs .map__social__img-1,
+.wrapper .section-8 .section-8__map .map__social-imgs .map__social__img-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 100%;
+  background-color: #E3B873;
+}
+.wrapper .section-8 .section-8__map .map__social-imgs .map__social__img-1 {
+  margin-right: 15px;
+}
+.wrapper .section-8 .section-8__map .map__img {
+  padding-top: 43px;
+}
+.wrapper .section-8 .footer {
+  display: flex;
+  height: 133px;
+  background-color: #181818;
 }
 
 @media all and (max-width: 375px) {
