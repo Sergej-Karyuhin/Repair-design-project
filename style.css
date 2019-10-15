@@ -132,6 +132,7 @@ body {
   color: #E3B873;
 }
 .wrapper .section-1 .rostov-on-don .rostov-on-don__content__text {
+  width: 504px;
   padding-top: 19px;
   padding-bottom: 41px;
   font-size: 22px;
@@ -1159,6 +1160,9 @@ body {
     /*---------*/
     /*SECTION-1*/
     /*---------*/
+    /*---------*/
+    /*SECTION-1*/
+    /*---------*/
   }
   .wrapper .header__nav, .wrapper .contacts__button, .wrapper .rostov-on-don__aside, .wrapper .scroll-down,
 .wrapper .section-2__nav, .wrapper .slide__img-1, .wrapper .slide__img-2, .wrapper .section-2__background-block,
@@ -1167,6 +1171,9 @@ body {
 .wrapper .section-5__content__text__sub-title, .wrapper .section-5__content__text__list,
 .wrapper .steps__container, .wrapper .our-team__text-2, .wrapper .our-clients__container, .wrapper .footer {
     display: none !important;
+  }
+  .wrapper .section-1 {
+    height: 533px;
   }
   .wrapper .header {
     height: 57px;
@@ -1188,14 +1195,15 @@ body {
   }
   .wrapper #rostov-on-don__content-mobile {
     padding-left: 18px;
+    height: 100%;
   }
   .wrapper #rostov-on-don__content__title-mobile {
     font-size: 23px;
     line-height: 132.83%;
   }
   .wrapper #rostov-on-don__content__text-mobile {
+    width: 339px;
     font-size: 18px;
-    line-height: 135.84%;
   }
   .wrapper #rostov-on-don__content__buttons__item-1-mobile {
     width: 339px;
@@ -1209,6 +1217,14 @@ body {
   }
   .wrapper .rostov-on-don__content__buttons__item-2 span {
     display: none;
+  }
+  .wrapper #rostov-on-don-mobile {
+    width: 375px;
+    height: 476px;
+    background-image: url(assets/img/mobile/section-1-img.png);
+  }
+  .wrapper .rostov-on-don__content {
+    background-image: none !important;
   }
 }
 
