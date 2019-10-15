@@ -12,7 +12,7 @@ body {
 /*PAGE-CONTAINER*/
 /*-------------*/
 .wrapper {
-  width: 1440px;
+  width: 1422px;
   margin: 0 auto;
   /*------*/
   /*HEADER*/
@@ -288,7 +288,7 @@ body {
 .wrapper .section-2 .section-2__video {
   position: absolute;
   top: 1640px;
-  left: 550px;
+  left: 320px;
 }
 .wrapper .section-3 {
   height: 1401px;
@@ -1141,18 +1141,6 @@ body {
   background-color: #181818;
 }
 
-.header {
-  height: 83px;
-  display: flex;
-}
-
-.header__logo,
-.header__contacts p,
-.nav__item:first-child,
-.aside__text {
-  color: #E3B873;
-}
-
 @media all and (max-width: 375px) {
   .wrapper {
     width: 375px;
@@ -1161,7 +1149,7 @@ body {
     /*SECTION-1*/
     /*---------*/
     /*---------*/
-    /*SECTION-1*/
+    /*SECTION-2*/
     /*---------*/
   }
   .wrapper .header__nav, .wrapper .contacts__button, .wrapper .rostov-on-don__aside, .wrapper .scroll-down,
@@ -1225,6 +1213,33 @@ body {
   }
   .wrapper .rostov-on-don__content {
     background-image: none !important;
+  }
+  .wrapper .section-2 .section-2__content {
+    padding-top: 36px;
+  }
+  .wrapper .section-2 .section-2__content .section-2__content__completed-projects {
+    margin: 0 auto;
+  }
+  .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__title {
+    text-align: center;
+  }
+  .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__text {
+    width: 311px;
+    margin: 22px auto 0;
+    text-align: center;
+    font-size: 14px;
+  }
+  .wrapper .section-2 .section-2__content .section-2__content__completed-projects .section-2-img {
+    margin: 0 auto;
+    margin-top: 36px;
+    width: 340px;
+    height: 242px;
+    background-image: url(assets/img/mobile/section-2-img.png);
+    background-repeat: no-repeat;
+  }
+  .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__text__advantages {
+    margin-top: 36px;
+    padding: 0 17px;
   }
 }
 
