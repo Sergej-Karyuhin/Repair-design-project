@@ -1237,6 +1237,19 @@ body {
       display: none !important;
     }
 
+    .section-2 {
+      .section-2__online-control {
+        margin-top: 320px;
+      }
+      .section-2__video {
+        top: 1378px;
+        left: 18px;
+      }
+    }
+    .section-2__video video {
+     width: 340px;
+     height: 207px;
+   }
 
 
     /*---------*/
@@ -1327,7 +1340,17 @@ body {
           .completed-projects__text__advantages {
             margin-top: 36px;
             padding: 0 17px;
+            padding-right: 60px;
           }
+          .completed-projects__mini-title,
+          .completed-projects__mini-text {
+            font-size: 14px;
+          }
+          .item-indent {
+            margin-right: 40px;
+          }
+
+
 
         }
       }

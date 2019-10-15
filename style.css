@@ -1160,6 +1160,17 @@ body {
 .wrapper .steps__container, .wrapper .our-team__text-2, .wrapper .our-clients__container, .wrapper .footer {
     display: none !important;
   }
+  .wrapper .section-2 .section-2__online-control {
+    margin-top: 320px;
+  }
+  .wrapper .section-2 .section-2__video {
+    top: 1378px;
+    left: 18px;
+  }
+  .wrapper .section-2__video video {
+    width: 340px;
+    height: 207px;
+  }
   .wrapper .section-1 {
     height: 533px;
   }
@@ -1240,6 +1251,14 @@ body {
   .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__text__advantages {
     margin-top: 36px;
     padding: 0 17px;
+    padding-right: 60px;
+  }
+  .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__mini-title,
+.wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__mini-text {
+    font-size: 14px;
+  }
+  .wrapper .section-2 .section-2__content .section-2__content__completed-projects .item-indent {
+    margin-right: 40px;
   }
 }
 
