@@ -45,6 +45,9 @@ body {
   /*SECTION-8*/
   /*---------*/
 }
+.wrapper .section-3__mobile-form, .wrapper .we-realize__mobile {
+  display: none;
+}
 .wrapper .header {
   height: 83px;
   display: flex;
@@ -1141,15 +1144,21 @@ body {
   background-color: #181818;
 }
 
+/*----------------------------------------------------------------------------*/
+/*---MOBILE-BLOCK-------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
 @media all and (max-width: 375px) {
   .wrapper {
-    width: 375px;
-    margin: 0;
+    width: 357px;
+    margin: 0 auto;
     /*---------*/
     /*SECTION-1*/
     /*---------*/
     /*---------*/
     /*SECTION-2*/
+    /*---------*/
+    /*---------*/
+    /*SECTION-3*/
     /*---------*/
   }
   .wrapper .header__nav, .wrapper .contacts__button, .wrapper .rostov-on-don__aside, .wrapper .scroll-down,
@@ -1157,7 +1166,8 @@ body {
 .wrapper .section-3__submit-form, .wrapper .section-3__checkbox, .wrapper .section-4, .wrapper .section-5__img-1,
 .wrapper .section-5__img-2, .wrapper .section-5__img-3, .wrapper .section-5__img-4,
 .wrapper .section-5__content__text__sub-title, .wrapper .section-5__content__text__list,
-.wrapper .steps__container, .wrapper .our-team__text-2, .wrapper .our-clients__container, .wrapper .footer {
+.wrapper .steps__container, .wrapper .our-team__text-2, .wrapper .our-clients__container, .wrapper .footer,
+.wrapper .section-5 {
     display: none !important;
   }
   .wrapper .section-2 .section-2__online-control {
@@ -1165,11 +1175,34 @@ body {
   }
   .wrapper .section-2 .section-2__video {
     top: 1378px;
-    left: 18px;
+    left: 9px;
   }
   .wrapper .section-2__video video {
     width: 340px;
     height: 207px;
+  }
+  .wrapper .section-3__mobile-form {
+    display: block;
+  }
+  .wrapper .rostov-on-don__content__wrapper {
+    margin-left: -9px;
+  }
+  .wrapper .we-realize__mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 318px;
+    height: 66px;
+    margin: 0 auto;
+    margin-top: 530px;
+  }
+  .wrapper .we-realize__mobile .we-realize__mobile__text {
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
   }
   .wrapper .section-1 {
     height: 533px;
@@ -1218,12 +1251,15 @@ body {
     display: none;
   }
   .wrapper #rostov-on-don-mobile {
-    width: 375px;
+    width: 357px;
     height: 476px;
     background-image: url(assets/img/mobile/section-1-img.png);
   }
   .wrapper .rostov-on-don__content {
     background-image: none !important;
+  }
+  .wrapper .section-2 {
+    height: 1557px;
   }
   .wrapper .section-2 .section-2__content {
     padding-top: 36px;
@@ -1259,6 +1295,125 @@ body {
   }
   .wrapper .section-2 .section-2__content .section-2__content__completed-projects .item-indent {
     margin-right: 40px;
+  }
+  .wrapper .section-3 {
+    height: 2053px;
+  }
+  .wrapper .section-3 .section-3__text-block {
+    width: 340px;
+    height: 107px;
+  }
+  .wrapper .section-3 .section-3__text-block .section-3__text-block__text {
+    position: relative;
+    bottom: 472px;
+    padding-top: 0;
+    line-height: 169.8%;
+    font-size: 14px;
+    color: #FFFFFF;
+  }
+  .wrapper .section-3 .section-3__mobile-form {
+    position: relative;
+    bottom: 395px;
+    margin: 0 auto;
+    width: 340px;
+    height: 311px;
+    background-color: #181818;
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__item__title {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__input {
+    width: 340px;
+    background-color: #181818;
+    border: 0;
+    border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__input::placeholder {
+    font-size: 18px;
+    line-height: 138.72%;
+    color: #FFFFFF;
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__item-1 {
+    margin-bottom: 63px;
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__item-2 {
+    margin-bottom: 27px;
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__checkbox-text {
+    margin-left: 9px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__checkbox {
+    width: 18px;
+    height: 18px;
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__item-checkbox {
+    display: flex;
+    align-items: center;
+  }
+  .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__button {
+    width: 340px;
+    height: 51px;
+    margin-top: 72px;
+    border: 0;
+    background: #E3B873;
+    box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+  .wrapper .section-3 .section-3__types-of-repair {
+    position: relative;
+    bottom: 505px;
+    flex-direction: column;
+  }
+  .wrapper .section-3 .section-3__types-of-repair .section-3__types-of-repair__item img {
+    width: 340px;
+  }
+  .wrapper .section-3 .section-3__types-of-repair .section-3__types-of-repair__item {
+    margin-left: 9px;
+    height: 550px;
+  }
+  .wrapper .section-3 .section-3__types-of-repair .section-3__types-of-repair__item .repair-text {
+    width: 270px;
+    height: 241px;
+    padding: 0;
+    left: 0;
+  }
+  .wrapper .section-3 .section-3__types-of-repair .section-3__types-of-repair__item .repair-text .repair-text__title {
+    padding-top: 21px;
+    padding-left: 31px;
+    font-size: 15px;
+    line-height: 138.6%;
+  }
+  .wrapper .section-3 .section-3__types-of-repair .section-3__types-of-repair__item .repair-text .repair-text__ul {
+    padding-left: 32px;
+    font-size: 13px;
+    line-height: 169.8%;
+  }
+  .wrapper .section-3 .section-3__types-of-repair .section-3__types-of-repair__item .repair__button {
+    width: 190px;
+    height: 40px;
+    left: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 138.6%;
+  }
+  .wrapper .section-3 .section-3__title {
+    position: relative;
+    bottom: 491px;
+  }
+  .wrapper .section-3 .section-3__title .section-3__title__text {
+    font-size: 22px;
+    line-height: 138.6%;
+  }
+  .wrapper .section-7, .wrapper .section-8 {
+    display: none;
   }
 }
 

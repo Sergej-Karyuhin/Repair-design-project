@@ -15,10 +15,14 @@ body {
 /*--------------*/
 /*PAGE-CONTAINER*/
 /*-------------*/
-// @media all and (min-width: 1440px) {
 .wrapper {
   width: 1422px;
   margin: 0 auto;
+
+  .section-3__mobile-form, .we-realize__mobile {
+    display: none;
+  }
+
   /*------*/
   /*HEADER*/
   /*------*/
@@ -1223,19 +1227,26 @@ body {
 
 
 
+/*----------------------------------------------------------------------------*/
+/*---MOBILE-BLOCK-------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
 @media all and (max-width: 375px) {
   .wrapper {
-    width: 375px;
-    margin: 0;
+    width: 357px;
+    margin: 0 auto;
+    // overflow-x: hidden;
 
     .header__nav, .contacts__button, .rostov-on-don__aside, .scroll-down,
     .section-2__nav, .slide__img-1, .slide__img-2, .section-2__background-block,
     .section-3__submit-form, .section-3__checkbox, .section-4, .section-5__img-1,
     .section-5__img-2, .section-5__img-3, .section-5__img-4,
     .section-5__content__text__sub-title, .section-5__content__text__list,
-    .steps__container, .our-team__text-2, .our-clients__container, .footer {
+    .steps__container, .our-team__text-2, .our-clients__container, .footer,
+    .section-5 {
       display: none !important;
     }
+
+
 
     .section-2 {
       .section-2__online-control {
@@ -1243,13 +1254,37 @@ body {
       }
       .section-2__video {
         top: 1378px;
-        left: 18px;
+        left: 9px;
       }
     }
     .section-2__video video {
      width: 340px;
      height: 207px;
    }
+   .section-3__mobile-form {
+     display: block;
+   }
+   .rostov-on-don__content__wrapper {
+     margin-left: -9px;
+   }
+   .we-realize__mobile {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: 318px;
+     height: 66px;
+     margin: 0 auto;
+     margin-top: 530px;
+     .we-realize__mobile__text {
+       margin-bottom: 24px;
+       font-size: 22px;
+       line-height: 138.6%;
+       text-align: center;
+       text-transform: uppercase;
+       color: #E3B873;
+     }
+   }
+
 
 
     /*---------*/
@@ -1302,7 +1337,7 @@ body {
       display: none;
     }
     #rostov-on-don-mobile {
-      width: 375px;
+      width: 357px;
       height: 476px;
       background-image: url(assets/img/mobile/section-1-img.png);
     }
@@ -1316,6 +1351,7 @@ body {
     /*SECTION-2*/
     /*---------*/
     .section-2 {
+      @include block-height(1557px);
       .section-2__content {
         padding-top: 36px;
         .section-2__content__completed-projects {
@@ -1349,14 +1385,144 @@ body {
           .item-indent {
             margin-right: 40px;
           }
-
-
-
         }
       }
     }
 
 
+
+    /*---------*/
+    /*SECTION-3*/
+    /*---------*/
+    .section-3 {
+      @include block-height(2053px);
+      .section-3__text-block {
+        width: 340px;
+        height: 107px;
+        .section-3__text-block__text {
+          position: relative;
+          bottom: 472px;
+          padding-top: 0;
+          line-height: 169.8%;
+          font-size: 14px;
+          color: #FFFFFF;
+        }
+      }
+
+      .section-3__mobile-form {
+        position: relative;
+        bottom: 395px;
+        margin: 0 auto;
+        width: 340px;
+        height: 311px;
+        background-color: #181818;
+        .section-3__mobile-form__item__title {
+          font-size: 15px;
+          line-height: 20px;
+          color: rgba(255, 255, 255, 0.5);
+        }
+        .section-3__mobile-form__input {
+          width: 340px;
+          background-color: #181818;
+          border: 0;
+          border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+        }
+        .section-3__mobile-form__input::placeholder {
+          font-size: 18px;
+          line-height: 138.72%;
+          color: #FFFFFF;
+        }
+        .section-3__mobile-form__item-1 {
+          margin-bottom: 63px;
+        }
+        .section-3__mobile-form__item-2 {
+          margin-bottom: 27px;
+        }
+        .section-3__mobile-form__checkbox-text {
+          margin-left: 9px;
+          font-size: 16px;
+          line-height: 22px;
+          color: #FFFFFF;
+        }
+        .section-3__mobile-form__checkbox {
+          width: 18px;
+          height: 18px;
+        }
+        .section-3__mobile-form__item-checkbox {
+          display: flex;
+          align-items: center;
+        }
+        .section-3__mobile-form__button {
+          width: 340px;
+          height: 51px;
+          margin-top: 72px;
+          border: 0;
+          background: #E3B873;
+          box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+
+          font-size: 15px;
+          line-height: 26px;
+          text-align: center;
+          color: #FFFFFF;
+        }
+      }
+
+      .section-3__types-of-repair {
+        position: relative;
+        bottom: 505px;
+        flex-direction: column;
+        .section-3__types-of-repair__item img {
+          width: 340px;
+        }
+        .section-3__types-of-repair__item {
+          margin-left: 9px;
+          height: 550px;
+          .repair-text {
+            width: 270px;
+            height: 241px;
+            padding: 0;
+            left: 0;
+            .repair-text__title {
+              padding-top: 21px;
+              padding-left: 31px;
+              font-size: 15px;
+              line-height: 138.6%;
+            }
+            .repair-text__ul {
+              padding-left: 32px;
+              font-size: 13px;
+              line-height: 169.8%;
+            }
+          }
+          .repair__button {
+            width: 190px;
+            height: 40px;
+            left: 0;
+            margin-top: 10px;
+
+            font-size: 15px;
+            line-height: 138.6%;
+          }
+        }
+      }
+
+      .section-3__title {
+        position: relative;
+        bottom: 491px;
+        .section-3__title__text {
+          font-size: 22px;
+          line-height: 138.6%;
+        }
+      }
+    }
+
+
+
+
+
+    .section-7, .section-8 {
+      display: none;
+    }
 
   }
 }
