@@ -1518,6 +1518,67 @@ body {
 
 
 
+    /*---------*/
+    /*SECTION-6*/
+    /*---------*/
+    .section-6 {
+      @include block-height(2064px);
+      background-color: #181818;
+      .design-project {
+        background-color: #181818;
+        .design-project__title {
+          padding-top: 150px;
+          font-size: 22px;
+          line-height: 138.6%;
+          color: #FFFFFF;
+        }
+        .design-project__text {
+          font-size: 15px;
+          line-height: 135.84%;
+          color: #FFFFFF;
+        }
+        .section-6__types-of-repair {
+          flex-direction: column;
+          margin: 39px auto 0;
+          width: auto;
+          height: auto;
+          .section-6__types-of-repair__item img {
+            width: 340px;
+          }
+          .section-6__types-of-repair__item {
+            margin-right: 0;
+            margin-bottom: -100px;
+            .repair-text-1, .repair-text-2, .repair-text-3 {
+              left: 0;
+              width: 230px;
+              padding-top: 18px;
+              padding-left: 31px;
+            }
+            .repair-text-3 {
+              height: 256px;
+              .repair-text__ul {
+                li:nth-child(8),
+                li:nth-child(9),
+                li:nth-child(10),
+                li:nth-child(11),
+                li:nth-child(12) {
+                  display: none;
+                }
+              }
+            }
+            .repair__button {
+              left: 0;
+              bottom: 152px;
+              width: 190px;
+              height: 40px;
+            }
+          }
+        }
+      }
+    }
+
+
+
 
 
     .section-7, .section-8 {

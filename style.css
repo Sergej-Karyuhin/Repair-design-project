@@ -1160,6 +1160,9 @@ body {
     /*---------*/
     /*SECTION-3*/
     /*---------*/
+    /*---------*/
+    /*SECTION-6*/
+    /*---------*/
   }
   .wrapper .header__nav, .wrapper .contacts__button, .wrapper .rostov-on-don__aside, .wrapper .scroll-down,
 .wrapper .section-2__nav, .wrapper .slide__img-1, .wrapper .slide__img-2, .wrapper .section-2__background-block,
@@ -1411,6 +1414,59 @@ body {
   .wrapper .section-3 .section-3__title .section-3__title__text {
     font-size: 22px;
     line-height: 138.6%;
+  }
+  .wrapper .section-6 {
+    height: 2064px;
+    background-color: #181818;
+  }
+  .wrapper .section-6 .design-project {
+    background-color: #181818;
+  }
+  .wrapper .section-6 .design-project .design-project__title {
+    padding-top: 150px;
+    font-size: 22px;
+    line-height: 138.6%;
+    color: #FFFFFF;
+  }
+  .wrapper .section-6 .design-project .design-project__text {
+    font-size: 15px;
+    line-height: 135.84%;
+    color: #FFFFFF;
+  }
+  .wrapper .section-6 .design-project .section-6__types-of-repair {
+    flex-direction: column;
+    margin: 39px auto 0;
+    width: auto;
+    height: auto;
+  }
+  .wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item img {
+    width: 340px;
+  }
+  .wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item {
+    margin-right: 0;
+    margin-bottom: -100px;
+  }
+  .wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-1, .wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-2, .wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-3 {
+    left: 0;
+    width: 230px;
+    padding-top: 18px;
+    padding-left: 31px;
+  }
+  .wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-3 {
+    height: 256px;
+  }
+  .wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-3 .repair-text__ul li:nth-child(8),
+.wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-3 .repair-text__ul li:nth-child(9),
+.wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-3 .repair-text__ul li:nth-child(10),
+.wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-3 .repair-text__ul li:nth-child(11),
+.wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair-text-3 .repair-text__ul li:nth-child(12) {
+    display: none;
+  }
+  .wrapper .section-6 .design-project .section-6__types-of-repair .section-6__types-of-repair__item .repair__button {
+    left: 0;
+    bottom: 152px;
+    width: 190px;
+    height: 40px;
   }
   .wrapper .section-7, .wrapper .section-8 {
     display: none;
