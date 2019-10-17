@@ -895,6 +895,7 @@ body {
         color: #FFFFFF;
       }
       .our-team__text-1 {
+        width: 393px;
         padding-top: 23px;
         font-size: 20px;
         line-height: 27px;
@@ -1235,6 +1236,7 @@ body {
     width: 357px;
     margin: 0 auto;
     // overflow-x: hidden;
+    // overflow-y: hidden;
 
     .header__nav, .contacts__button, .rostov-on-don__aside, .scroll-down,
     .section-2__nav, .slide__img-1, .slide__img-2, .section-2__background-block,
@@ -1579,9 +1581,69 @@ body {
 
 
 
+    /*---------*/
+    /*SECTION-7*/
+    /*---------*/
+    .section-7 {
+      @include block-height(2090px);
+      .our-clients {
+        background-color: #181818;
+      }
+      .our-team {
+        .our-team__title {
+          padding-top: 0;
+        }
+        .our-team__text-1 {
+          font-size: 15px;
+          line-height: 135.84%;
+          width: 340px;
+        }
+        .workers {
+          width: auto;
+          flex-direction: column;
+          .workers__item {
+            margin-right: 0 !important;
+            margin-left: 30px;
+          }
+        }
+      }
+      .section-7__form {
+        left: 26px;
+        bottom: 994px;
+        #section-7__input-1-mobile,
+        #section-7__input-2-mobile,
+        #section-7__input-3-mobile {
+          width: 335px;
+        }
+        #section-7__input-1-mobile {
+          margin-bottom: 50px;
+        }
+        width: 306px;
+        .section-7__form__container {
+          width: auto;
+          .section-7__form__title {
+            padding-right: 50px;
+          }
+          .section-7__form__inputs-1-2 {
+            flex-direction: column;
+          }
+          .section-7__form__checkbox {
+            padding-top: 22px;
+            margin: 0;
+          }
+          .section-7__form__button {
+            margin-left: 0;
+            width: 340px;
+          }
+        }
+      }
+    }
 
 
-    .section-7, .section-8 {
+
+
+
+    .section-8 {
       display: none;
     }
 

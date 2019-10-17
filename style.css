@@ -836,6 +836,7 @@ body {
   color: #FFFFFF;
 }
 .wrapper .section-7 .our-team .our-team__text-1 {
+  width: 393px;
   padding-top: 23px;
   font-size: 20px;
   line-height: 27px;
@@ -1151,6 +1152,8 @@ body {
   .wrapper {
     width: 357px;
     margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
     /*---------*/
     /*SECTION-1*/
     /*---------*/
@@ -1162,6 +1165,9 @@ body {
     /*---------*/
     /*---------*/
     /*SECTION-6*/
+    /*---------*/
+    /*---------*/
+    /*SECTION-7*/
     /*---------*/
   }
   .wrapper .header__nav, .wrapper .contacts__button, .wrapper .rostov-on-don__aside, .wrapper .scroll-down,
@@ -1468,7 +1474,59 @@ body {
     width: 190px;
     height: 40px;
   }
-  .wrapper .section-7, .wrapper .section-8 {
+  .wrapper .section-7 {
+    height: 2090px;
+  }
+  .wrapper .section-7 .our-clients {
+    background-color: #181818;
+  }
+  .wrapper .section-7 .our-team .our-team__title {
+    padding-top: 0;
+  }
+  .wrapper .section-7 .our-team .our-team__text-1 {
+    font-size: 15px;
+    line-height: 135.84%;
+    width: 340px;
+  }
+  .wrapper .section-7 .our-team .workers {
+    width: auto;
+    flex-direction: column;
+  }
+  .wrapper .section-7 .our-team .workers .workers__item {
+    margin-right: 0 !important;
+    margin-left: 30px;
+  }
+  .wrapper .section-7 .section-7__form {
+    left: 26px;
+    bottom: 994px;
+    width: 306px;
+  }
+  .wrapper .section-7 .section-7__form #section-7__input-1-mobile,
+.wrapper .section-7 .section-7__form #section-7__input-2-mobile,
+.wrapper .section-7 .section-7__form #section-7__input-3-mobile {
+    width: 335px;
+  }
+  .wrapper .section-7 .section-7__form #section-7__input-1-mobile {
+    margin-bottom: 50px;
+  }
+  .wrapper .section-7 .section-7__form .section-7__form__container {
+    width: auto;
+  }
+  .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__title {
+    padding-right: 50px;
+  }
+  .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__inputs-1-2 {
+    flex-direction: column;
+  }
+  .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__checkbox {
+    padding-top: 22px;
+    margin: 0;
+  }
+  .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__button {
+    margin-left: 0;
+    width: 340px;
+  }
+  .wrapper .section-8 {
     display: none;
   }
 }
