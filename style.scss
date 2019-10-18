@@ -25,6 +25,10 @@ body {
     display: none;
   }
 
+  button {
+    cursor: pointer;
+  }
+
   /*------*/
   /*HEADER*/
   /*------*/
@@ -33,7 +37,7 @@ body {
     display: flex;
   }
   .header__logo,
-  .header__contacts p,
+  .header__contacts a,
   .nav__item:first-child,
   .aside__text {
     color: #E3B873;
@@ -57,13 +61,17 @@ body {
     .nav__item {
       margin-right: 47px;
     }
+    .nav__item:hover {
+      color: #d133d4;
+      cursor: pointer;
+    }
     .nav__item:last-child {
       margin-right: 0;
     }
     .header__contacts {
       display: flex;
     }
-    .header__contacts p {
+    .header__contacts a {
       margin-right: 45px;
       text-decoration-line: underline;
       align-self: center;
@@ -78,6 +86,9 @@ body {
       text-transform: uppercase;
       font-size: 11px;
       border: 0;
+    }
+    .contacts__button:hover {
+      background-color: #d133d4;
     }
   }
 
@@ -100,6 +111,7 @@ body {
         height: 707px;
         .aside__text, .aside__line {
           transform: rotate(90deg);
+          text-decoration: none;
         }
         .aside__line {
           position: relative;
@@ -179,6 +191,10 @@ body {
           border: 1.5px solid #E3B873;
           transform: rotate(180deg);
         }
+        .scroll-down__content__button:hover {
+          border-color: #d133d4;
+          color: #d133d4;
+        }
       }
     }
 
@@ -211,6 +227,10 @@ body {
           margin: 0;
           color: #E3B873;
           text-decoration: underline;
+        }
+        .section-2__nav__item:hover {
+          color: #d133d4;
+          cursor: pointer;
         }
       }
       .section-2__content {
@@ -523,6 +543,7 @@ body {
                 border: 0;
                 border-bottom: 1px solid rgba(255, 255, 255, 0.15);
                 background-color: #131313;
+                color: #FFF;
               }
               .section-4__form__item__input::placeholder {
                 font-size: 18px;
@@ -1195,6 +1216,10 @@ body {
         text-transform: uppercase;
         color: #E3B873;
       }
+      .map__title a {
+        color: #E3B873;
+        text-decoration: none;
+      }
       .map__social-imgs {
         display: flex;
         padding-top: 26px;
@@ -1210,6 +1235,11 @@ body {
         }
         .map__social__img-1 {
           margin-right: 15px;
+        }
+        .map__social__img-1:hover,
+        .map__social__img-2:hover {
+          cursor: pointer;
+          background-color: #d133d4;
         }
       }
       .map__img {
@@ -1267,7 +1297,7 @@ body {
     .header__container {
       width: 339px;
     }
-    .header__contacts p {
+    .header__contacts a {
       font-size: 12px;
       line-height: 14px;
       color: #FFFFFF;
