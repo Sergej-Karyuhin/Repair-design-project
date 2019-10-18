@@ -1182,40 +1182,6 @@ body {
 .wrapper .section-5, .wrapper .map__img {
     display: none !important;
   }
-  .wrapper .section-2 .section-2__online-control {
-    margin-top: 320px;
-  }
-  .wrapper .section-2 .section-2__video {
-    top: 1378px;
-    left: 9px;
-  }
-  .wrapper .section-2__video video {
-    width: 340px;
-    height: 207px;
-  }
-  .wrapper .section-3__mobile-form {
-    display: block;
-  }
-  .wrapper .rostov-on-don__content__wrapper {
-    margin-left: -9px;
-  }
-  .wrapper .we-realize__mobile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 318px;
-    height: 66px;
-    margin: 0 auto;
-    margin-top: 530px;
-  }
-  .wrapper .we-realize__mobile .we-realize__mobile__text {
-    margin-bottom: 24px;
-    font-size: 22px;
-    line-height: 138.6%;
-    text-align: center;
-    text-transform: uppercase;
-    color: #E3B873;
-  }
   .wrapper .section-1 {
     height: 533px;
   }
@@ -1236,6 +1202,9 @@ body {
     line-height: 14px;
     text-transform: uppercase;
     color: #E3B873;
+  }
+  .wrapper .rostov-on-don__content__wrapper {
+    margin-left: -9px;
   }
   .wrapper #rostov-on-don__content-mobile {
     padding-left: 18px;
@@ -1272,6 +1241,17 @@ body {
   }
   .wrapper .section-2 {
     height: 1557px;
+  }
+  .wrapper .section-2 .section-2__online-control {
+    margin-top: 320px;
+  }
+  .wrapper .section-2 .section-2__video {
+    top: 1378px;
+    left: 9px;
+  }
+  .wrapper .section-2 .section-2__video video {
+    width: 340px;
+    height: 207px;
   }
   .wrapper .section-2 .section-2__content {
     padding-top: 36px;
@@ -1310,6 +1290,26 @@ body {
   }
   .wrapper .section-3 {
     height: 2053px;
+  }
+  .wrapper .section-3 .section-3__mobile-form {
+    display: block;
+  }
+  .wrapper .section-3 .we-realize__mobile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 318px;
+    height: 66px;
+    margin: 0 auto;
+    margin-top: 530px;
+  }
+  .wrapper .section-3 .we-realize__mobile .we-realize__mobile__text {
+    margin-bottom: 24px;
+    font-size: 22px;
+    line-height: 138.6%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
   }
   .wrapper .section-3 .section-3__text-block {
     width: 340px;

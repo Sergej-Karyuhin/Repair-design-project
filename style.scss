@@ -1252,45 +1252,6 @@ body {
 
 
 
-    .section-2 {
-      .section-2__online-control {
-        margin-top: 320px;
-      }
-      .section-2__video {
-        top: 1378px;
-        left: 9px;
-      }
-    }
-    .section-2__video video {
-     width: 340px;
-     height: 207px;
-   }
-   .section-3__mobile-form {
-     display: block;
-   }
-   .rostov-on-don__content__wrapper {
-     margin-left: -9px;
-   }
-   .we-realize__mobile {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     width: 318px;
-     height: 66px;
-     margin: 0 auto;
-     margin-top: 530px;
-     .we-realize__mobile__text {
-       margin-bottom: 24px;
-       font-size: 22px;
-       line-height: 138.6%;
-       text-align: center;
-       text-transform: uppercase;
-       color: #E3B873;
-     }
-   }
-
-
-
     /*---------*/
     /*SECTION-1*/
     /*---------*/
@@ -1314,6 +1275,10 @@ body {
       line-height: 14px;
       text-transform: uppercase;
       color: #E3B873;
+    }
+
+    .rostov-on-don__content__wrapper {
+      margin-left: -9px;
     }
     #rostov-on-don__content-mobile {
       padding-left: 18px;
@@ -1356,6 +1321,19 @@ body {
     /*---------*/
     .section-2 {
       @include block-height(1557px);
+
+      .section-2__online-control {
+        margin-top: 320px;
+      }
+      .section-2__video {
+        top: 1378px;
+        left: 9px;
+      }
+      .section-2__video video {
+       width: 340px;
+       height: 207px;
+      }
+
       .section-2__content {
         padding-top: 36px;
         .section-2__content__completed-projects {
@@ -1400,6 +1378,29 @@ body {
     /*---------*/
     .section-3 {
       @include block-height(2053px);
+
+      .section-3__mobile-form {
+        display: block;
+      }
+
+      .we-realize__mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 318px;
+        height: 66px;
+        margin: 0 auto;
+        margin-top: 530px;
+        .we-realize__mobile__text {
+          margin-bottom: 24px;
+          font-size: 22px;
+          line-height: 138.6%;
+          text-align: center;
+          text-transform: uppercase;
+          color: #E3B873;
+        }
+      }
+
       .section-3__text-block {
         width: 340px;
         height: 107px;
