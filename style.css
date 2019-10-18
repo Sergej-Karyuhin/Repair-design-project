@@ -63,6 +63,9 @@ button {
 .wrapper .nav__item:first-child,
 .wrapper .aside__text {
   color: #E3B873;
+  font-family: "FuturaBookC";
+  font-weight: normal;
+  font-style: normal;
 }
 .wrapper .header__container {
   width: 1256px;
@@ -99,6 +102,9 @@ button {
   background-color: #E3B873;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px;
+  font-family: "FuturaBookC";
+  font-weight: normal;
+  font-style: normal;
   color: #FFFFFF;
   text-transform: uppercase;
   font-size: 11px;
@@ -142,6 +148,9 @@ button {
   height: 707px;
 }
 .wrapper .section-1 .rostov-on-don .rostov-on-don__content__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   font-size: 40px;
 }
@@ -152,6 +161,8 @@ button {
   width: 504px;
   padding-top: 19px;
   padding-bottom: 41px;
+  font-family: "FuturaBookC";
+  font-size: 22px;
   font-size: 22px;
   line-height: 30px;
 }
@@ -160,6 +171,7 @@ button {
   width: 207px;
   height: 51px;
   border-radius: 2px;
+  font-family: "FuturaDemiC";
   color: #FFFFFF;
 }
 .wrapper .section-1 .rostov-on-don .rostov-on-don__content__buttons__item-1:hover,
@@ -194,6 +206,9 @@ button {
 .wrapper .section-1 .scroll-down .scroll-down__content .scroll-down__content__text {
   margin-right: 12px;
   align-self: center;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   text-transform: uppercase;
   font-size: 14px;
   line-height: 19px;
@@ -221,9 +236,12 @@ button {
   display: flex;
   align-items: center;
   align-self: flex-end;
-  margin-right: 250px;
+  margin-right: 224px;
   height: 128px;
   list-style: none;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
 }
 .wrapper .section-2 .section-2__nav .section-2__nav__item {
   margin-left: 60px;
@@ -251,15 +269,22 @@ button {
   margin-left: 100px;
 }
 .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__title, .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__mini-title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   color: #E3B873;
   text-transform: uppercase;
 }
 .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 27px;
   line-height: 37px;
   letter-spacing: -0.07em;
 }
 .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__text {
+  font-family: "FuturaBookC";
   margin-top: 34px;
   font-size: 18px;
   line-height: 29px;
@@ -274,6 +299,7 @@ button {
   flex-direction: column;
 }
 .wrapper .section-2 .section-2__content .section-2__content__completed-projects .completed-projects__mini-text {
+  font-family: "FuturaBookC";
   margin-top: 9px;
 }
 .wrapper .section-2 .section-2__content .section-2__content__completed-projects .item-indent {
@@ -300,6 +326,9 @@ button {
   flex-direction: column;
 }
 .wrapper .section-2 .section-2__online-control .online-control__content .online-control__content_text {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-transform: uppercase;
@@ -329,6 +358,7 @@ button {
   margin: 0 auto;
 }
 .wrapper .section-3 .section-3__text-block .section-3__text-block__text {
+  font-family: "FuturaBookC";
   padding-top: 99px;
   font-size: 18px;
   line-height: 34px;
@@ -340,6 +370,7 @@ button {
   width: 769px;
   height: 51px;
   margin: 170px auto 0;
+  font-family: "FuturaBookC";
 }
 .wrapper .section-3 .section-3__submit-form .section-3__submit-form__item__title {
   font-size: 15px;
@@ -353,6 +384,7 @@ button {
   background: #E3B873;
   box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
   border-radius: 2px;
+  font-family: "FuturaBookC";
   font-size: 15px;
   line-height: 26px;
   text-transform: uppercase;
@@ -362,6 +394,7 @@ button {
   width: 231px;
   border: 0;
   border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+  font-family: "FuturaBookC";
 }
 .wrapper .section-3 .section-3__submit-form .section-3__submit-form__item:first-child {
   margin-right: 58px;
@@ -386,6 +419,7 @@ button {
 }
 .wrapper .section-3 .section-3__checkbox .section-3__checkbox__text {
   align-self: center;
+  font-family: "FuturaBookC";
   font-size: 16px;
   line-height: 22px;
   color: #181818;
@@ -398,6 +432,9 @@ button {
   margin: 148px auto 0;
 }
 .wrapper .section-3 .section-3__title .section-3__title__text {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   margin-bottom: 13px;
   font-size: 20px;
   line-height: 28px;
@@ -411,6 +448,9 @@ button {
   height: 608px;
   margin: 100px auto 0;
   display: flex;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
 }
 .wrapper .section-3 .section-3__types-of-repair .repair-text {
   position: relative;
@@ -429,6 +469,7 @@ button {
   color: #363636;
 }
 .wrapper .section-3 .section-3__types-of-repair .repair-text .repair-text__ul {
+  font-family: "FuturaBookC";
   font-size: 15px;
   line-height: 25px;
   color: #959595;
@@ -439,6 +480,9 @@ button {
   border: 0;
   background: #E3B873;
   box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -481,6 +525,7 @@ button {
   align-items: center;
 }
 .wrapper .section-4 .section-4__advantages .section-4__advantages__item .section-4__advantages__item__text {
+  font-family: "FuturaMediumC";
   font-size: 18px;
   line-height: 21px;
   color: #363636;
@@ -511,6 +556,7 @@ button {
   padding-top: 28px;
   margin-bottom: 39px;
   text-align: center;
+  font-family: "FuturaDemiC";
   font-size: 20px;
   line-height: 25px;
 }
@@ -526,6 +572,7 @@ button {
   border: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   background-color: #131313;
+  font-family: "FuturaMediumC";
   color: #FFF;
 }
 .wrapper .section-4 .section-4__form-block .section-4__form-block__form .section-4__form .section-4__form__inputs .section-4__form__item .section-4__form__item__input::placeholder {
@@ -535,6 +582,7 @@ button {
 }
 .wrapper .section-4 .section-4__form-block .section-4__form-block__form .section-4__form .section-4__form__inputs .section-4__form__item .section-4__form__item__title {
   margin-bottom: 7px;
+  font-family: "FuturaBookC";
   font-size: 15px;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.5);
@@ -553,6 +601,7 @@ button {
   margin-right: 9px;
 }
 .wrapper .section-4 .section-4__form-block .section-4__form-block__form .section-4__form .section-4__form__checkbox .section-4__form__checkbox__text {
+  font-family: "FuturaBookC";
   font-size: 16px;
   line-height: 22px;
   color: #FFFFFF;
@@ -563,6 +612,7 @@ button {
   background: #E3B873;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
   border: 0;
+  font-family: "FuturaDemiC";
   font-size: 13px;
   line-height: 18px;
   text-transform: uppercase;
@@ -575,6 +625,7 @@ button {
   align-items: center;
 }
 .wrapper .section-4 .section-4__form-block .section-4__form-block__donation .section-4__form-block__donation__text {
+  font-family: "FuturaDemiC";
   font-size: 20px;
   line-height: 25px;
   color: #E3B873;
@@ -603,6 +654,9 @@ button {
 }
 .wrapper .section-5 .section-5__content .section-5__content__text .section-5__content__text_title {
   margin-bottom: 47px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 27px;
   line-height: 37px;
   text-transform: uppercase;
@@ -610,6 +664,7 @@ button {
 }
 .wrapper .section-5 .section-5__content .section-5__content__text .section-5__content__text__sub-title {
   margin-bottom: 23px;
+  font-family: "Proxima Nova";
   font-size: 20px;
   line-height: 34px;
   color: #E3B873;
@@ -619,6 +674,7 @@ button {
   list-style: none;
 }
 .wrapper .section-5 .section-5__content .section-5__content__text .section-5__content__text__list__item {
+  font-family: "Proxima Nova";
   font-size: 20px;
   line-height: 34px;
   color: #FFFFFF;
@@ -657,6 +713,9 @@ button {
 }
 .wrapper .section-6 .design-project .design-project__title {
   padding-top: 112px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-transform: uppercase;
@@ -671,6 +730,7 @@ button {
 }
 .wrapper .section-6 .design-project .design-project__text {
   padding-top: 24px;
+  font-family: "FuturaBookC";
   font-size: 20px;
   line-height: 27px;
   text-align: center;
@@ -705,11 +765,13 @@ button {
 }
 .wrapper .section-6 .design-project .section-6__types-of-repair .repair-text__title {
   margin-left: -15px;
+  font-family: "Yeseva One";
   font-size: 18px;
   line-height: 25px;
   color: #363636;
 }
 .wrapper .section-6 .design-project .section-6__types-of-repair .repair-text__ul {
+  font-family: "FuturaBookC";
   font-size: 15px;
   line-height: 25px;
   color: #959595;
@@ -720,6 +782,9 @@ button {
   border: 0;
   background: #E3B873;
   box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -751,6 +816,7 @@ button {
   height: 515px;
 }
 .wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__sub-title-1 {
+  font-family: "FuturaDemiC";
   font-size: 15px;
   line-height: 21px;
   text-transform: uppercase;
@@ -758,6 +824,7 @@ button {
 }
 .wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__title {
   padding-top: 18px;
+  font-family: "Yeseva One";
   font-size: 27px;
   line-height: 37px;
   text-transform: uppercase;
@@ -765,6 +832,9 @@ button {
 }
 .wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__paragraph-1 {
   padding-top: 92px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   text-transform: uppercase;
@@ -772,6 +842,9 @@ button {
 }
 .wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__sub-title-2 {
   padding-top: 22px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 15px;
   line-height: 23px;
   text-transform: uppercase;
@@ -779,6 +852,7 @@ button {
 }
 .wrapper .section-6 .steps .steps__container .steps__text-content .steps__text-content__paragraph-2 {
   padding-top: 16px;
+  font-family: "FuturaBookC";
   font-size: 15px;
   line-height: 25px;
   color: #FFFFFF;
@@ -809,6 +883,7 @@ button {
   height: 178px;
 }
 .wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__h-active {
+  font-family: "Yeseva One";
   font-size: 15px;
   line-height: 21px;
   text-transform: uppercase;
@@ -816,12 +891,14 @@ button {
   color: #FFFFFF;
 }
 .wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__p-active {
+  font-family: "FuturaBookC";
   padding-top: 17px;
   font-size: 15px;
   line-height: 18px;
   color: #FFFFFF;
 }
 .wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__h-1 {
+  font-family: "Yeseva One";
   font-size: 15px;
   line-height: 21px;
   text-transform: uppercase;
@@ -829,17 +906,21 @@ button {
 }
 .wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__p-1 {
   padding-top: 17px;
+  font-family: "FuturaBookC";
   font-size: 15px;
   line-height: 18px;
 }
 .wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__h-2 {
   padding-top: 36px;
+  font-family: "Yeseva One";
   text-decoration: underline;
 }
 .wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__p-2 {
+  font-family: "FuturaBookC";
   padding-top: 13px;
 }
 .wrapper .section-6 .steps .steps__container .steps__table .steps__table__text .steps__table__h-2-center {
+  font-family: "Yeseva One";
   padding-top: 55px;
   text-decoration: underline;
 }
@@ -856,6 +937,9 @@ button {
 .wrapper .section-7 .our-team .our-team__title {
   padding-top: 95px;
   padding-bottom: 13px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -865,6 +949,7 @@ button {
 .wrapper .section-7 .our-team .our-team__text-1 {
   width: 393px;
   padding-top: 23px;
+  font-family: "FuturaBookC";
   font-size: 20px;
   line-height: 27px;
   text-align: center;
@@ -896,6 +981,9 @@ button {
   background-color: #FFF;
 }
 .wrapper .section-7 .our-team .workers .workers__item .workers__item__text .workers__item__text__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 25px;
   text-align: center;
@@ -904,6 +992,7 @@ button {
 .wrapper .section-7 .our-team .workers .workers__item .workers__item__text .workers__item__text__prof {
   padding-bottom: 20px;
   padding-top: 5px;
+  font-family: "FuturaBookC";
   font-size: 18px;
   line-height: 26px;
   text-align: center;
@@ -914,6 +1003,9 @@ button {
   height: 44px;
   background: #E3B873;
   border: 0;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 13px;
   line-height: 20px;
   text-align: center;
@@ -934,6 +1026,7 @@ button {
 }
 .wrapper .section-7 .our-team .our-team__text-2 {
   padding-top: 72px;
+  font-family: "FuturaBookC";
   font-size: 20px;
   line-height: 34px;
   text-align: center;
@@ -954,6 +1047,9 @@ button {
 }
 .wrapper .section-7 .our-clients .our-clients__container .our-clients__title {
   padding-bottom: 13px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -963,6 +1059,7 @@ button {
 .wrapper .section-7 .our-clients .our-clients__container .our-clients__text {
   padding-bottom: 39px;
   padding-top: 24px;
+  font-family: "FuturaBookC";
   font-size: 20px;
   line-height: 27px;
   text-align: center;
@@ -987,6 +1084,9 @@ button {
 }
 .wrapper .section-7 .our-clients .our-clients__container .clients .clients__item .clients__item__title .clients__item__title__text {
   padding-left: 23px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 18px;
   line-height: 23px;
   color: #181818;
@@ -994,6 +1094,7 @@ button {
 }
 .wrapper .section-7 .our-clients .our-clients__container .clients .clients__item .clients__item__text {
   padding: 22px 20px 0;
+  font-family: "FuturaBookC";
   font-size: 15px;
   line-height: 180%;
   color: #959595;
@@ -1017,6 +1118,9 @@ button {
   border: 0;
   background: #E3B873;
   box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
 }
 .wrapper .section-7 .our-clients .our-clients__container .clients .clients__item .clients__item__buttons .clients__item__button-1 {
   margin-right: 2px;
@@ -1049,6 +1153,9 @@ button {
   border: 0;
 }
 .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__title {
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -1070,6 +1177,7 @@ button {
   border: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
   background-color: inherit;
+  font-family: "FuturaBookC";
   color: #FFF;
 }
 .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__label-1,
@@ -1077,6 +1185,7 @@ button {
 .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__label-3 {
   display: block;
   padding-bottom: 7px;
+  font-family: "FuturaBookC";
   font-size: 15px;
   line-height: 20px;
   color: rgba(255, 255, 255, 0.5);
@@ -1084,6 +1193,7 @@ button {
 .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-1::placeholder,
 .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-2::placeholder,
 .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__input-3::placeholder {
+  font-family: "FuturaBookC";
   font-size: 18px;
   line-height: 24px;
   color: #FFFFFF;
@@ -1107,6 +1217,7 @@ button {
 }
 .wrapper .section-7 .section-7__form .section-7__form__container .section-7__form__checkbox .section-7__form__checkbox__text {
   padding-left: 9px;
+  font-family: "FuturaBookC";
   font-size: 16px;
   line-height: 22px;
   color: #FFFFFF;
@@ -1119,6 +1230,7 @@ button {
   margin-left: 160px;
   background: #E3B873;
   box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+  font-family: "FuturaDemiC";
   font-size: 15px;
   line-height: 26px;
   text-align: center;
@@ -1140,6 +1252,9 @@ button {
 }
 .wrapper .section-8 .section-8__map .map__title {
   padding-top: 285px;
+  font-family: "Yeseva One";
+  font-style: normal;
+  font-weight: normal;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
@@ -1348,6 +1463,9 @@ button {
   }
   .wrapper .section-3 .we-realize__mobile .we-realize__mobile__text {
     margin-bottom: 24px;
+    font-family: "Yeseva One";
+    font-style: normal;
+    font-weight: normal;
     font-size: 22px;
     line-height: 138.6%;
     text-align: center;
@@ -1373,6 +1491,7 @@ button {
     width: 340px;
     height: 311px;
     background-color: #181818;
+    font-family: "FuturaDemiC";
   }
   .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__item__title {
     font-size: 15px;
@@ -1384,6 +1503,7 @@ button {
     background-color: #181818;
     border: 0;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    font-family: "FuturaDemiC";
   }
   .wrapper .section-3 .section-3__mobile-form .section-3__mobile-form__input::placeholder {
     font-size: 18px;
@@ -1417,6 +1537,7 @@ button {
     border: 0;
     background: #E3B873;
     box-shadow: 0px 10px 20px rgba(227, 184, 115, 0.1);
+    font-family: "FuturaDemiC";
     font-size: 15px;
     line-height: 26px;
     text-align: center;
