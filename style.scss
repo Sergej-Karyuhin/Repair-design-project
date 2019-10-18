@@ -9,6 +9,9 @@ body {
 @mixin block-height ($height) {
   height: $height;
 }
+button {
+  cursor: pointer;
+}
 
 
 
@@ -19,14 +22,11 @@ body {
   width: 1422px;
   margin: 0 auto;
 
+
   .section-3__mobile-form,
   .we-realize__mobile,
-  .map__img-mobile {
+  .map__img-mobile, .iframe-mobile {
     display: none;
-  }
-
-  button {
-    cursor: pointer;
   }
 
   /*------*/
@@ -149,6 +149,10 @@ body {
         height: 51px;
         border-radius: 2px;
         color: #FFFFFF;
+      }
+      .rostov-on-don__content__buttons__item-1:hover,
+      .rostov-on-don__content__buttons__item-2:hover {
+        background-color: #d133d4; 
       }
       .rostov-on-don__content__buttons__item-1 {
         background: #E3B873;
@@ -1277,7 +1281,7 @@ body {
     .section-5__img-2, .section-5__img-3, .section-5__img-4,
     .section-5__content__text__sub-title, .section-5__content__text__list,
     .steps__container, .our-team__text-2, .our-clients__container, .footer,
-    .section-5, .map__img {
+    .section-5, .map__img, .iframe-desktop {
       display: none !important;
     }
   }
@@ -1354,6 +1358,10 @@ body {
     /*---------*/
     .section-2 {
       @include block-height(1557px);
+
+      .iframe-mobile {
+        display: block;
+      }
 
       .section-2__online-control {
         margin-top: 320px;

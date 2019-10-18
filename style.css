@@ -8,6 +8,10 @@ body {
   background-color: gray;
 }
 
+button {
+  cursor: pointer;
+}
+
 /*--------------*/
 /*PAGE-CONTAINER*/
 /*-------------*/
@@ -47,11 +51,8 @@ body {
 }
 .wrapper .section-3__mobile-form,
 .wrapper .we-realize__mobile,
-.wrapper .map__img-mobile {
+.wrapper .map__img-mobile, .wrapper .iframe-mobile {
   display: none;
-}
-.wrapper button {
-  cursor: pointer;
 }
 .wrapper .header {
   height: 83px;
@@ -160,6 +161,10 @@ body {
   height: 51px;
   border-radius: 2px;
   color: #FFFFFF;
+}
+.wrapper .section-1 .rostov-on-don .rostov-on-don__content__buttons__item-1:hover,
+.wrapper .section-1 .rostov-on-don .rostov-on-don__content__buttons__item-2:hover {
+  background-color: #d133d4;
 }
 .wrapper .section-1 .rostov-on-don .rostov-on-don__content__buttons__item-1 {
   background: #E3B873;
@@ -1192,7 +1197,7 @@ body {
 .wrapper .section-5__img-2, .wrapper .section-5__img-3, .wrapper .section-5__img-4,
 .wrapper .section-5__content__text__sub-title, .wrapper .section-5__content__text__list,
 .wrapper .steps__container, .wrapper .our-team__text-2, .wrapper .our-clients__container, .wrapper .footer,
-.wrapper .section-5, .wrapper .map__img {
+.wrapper .section-5, .wrapper .map__img, .wrapper .iframe-desktop {
     display: none !important;
   }
 }
@@ -1276,6 +1281,9 @@ body {
   }
   .wrapper .section-2 {
     height: 1557px;
+  }
+  .wrapper .section-2 .iframe-mobile {
+    display: block;
   }
   .wrapper .section-2 .section-2__online-control {
     margin-top: 320px;
