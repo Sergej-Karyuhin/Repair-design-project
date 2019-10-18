@@ -19,7 +19,9 @@ body {
   width: 1422px;
   margin: 0 auto;
 
-  .section-3__mobile-form, .we-realize__mobile {
+  .section-3__mobile-form,
+  .we-realize__mobile,
+  .map__img-mobile {
     display: none;
   }
 
@@ -1244,7 +1246,7 @@ body {
     .section-5__img-2, .section-5__img-3, .section-5__img-4,
     .section-5__content__text__sub-title, .section-5__content__text__list,
     .steps__container, .our-team__text-2, .our-clients__container, .footer,
-    .section-5 {
+    .section-5, .map__img {
       display: none !important;
     }
 
@@ -1641,10 +1643,33 @@ body {
 
 
 
-
-
+    /*---------*/
+    /*SECTION-8*/
+    /*---------*/
     .section-8 {
-      display: none;
+      @include block-height(531px);
+      .map__img-mobile {
+        display: block;
+        padding-top: 46px;
+      }
+
+      .section-8__map {
+        height: 531px;
+        .map__title {
+          padding-top: 42px;
+        }
+        .map__social-imgs {
+          .map__social__img-1,
+          .map__social__img-2 {
+            width: 39px;
+            height: 39px;
+          }
+          .map__social__img-1 img,
+          .map__social__img-2 img {
+            width: 20px;
+          }
+        }
+      }
     }
 
   }
