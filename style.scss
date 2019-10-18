@@ -1233,12 +1233,13 @@ body {
 /*----------------------------------------------------------------------------*/
 /*---MOBILE-BLOCK-------------------------------------------------------------*/
 /*----------------------------------------------------------------------------*/
+
 @media all and (max-width: 375px) {
   .wrapper {
     width: 357px;
     margin: 0 auto;
-    // overflow-x: hidden;
-    // overflow-y: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
     .header__nav, .contacts__button, .rostov-on-don__aside, .scroll-down,
     .section-2__nav, .slide__img-1, .slide__img-2, .section-2__background-block,
@@ -1249,9 +1250,11 @@ body {
     .section-5, .map__img {
       display: none !important;
     }
+  }
+}
 
-
-
+@media all and (max-width: 375px) {
+  .wrapper {
     /*---------*/
     /*SECTION-1*/
     /*---------*/

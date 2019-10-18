@@ -1154,6 +1154,21 @@ body {
   .wrapper {
     width: 357px;
     margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  .wrapper .header__nav, .wrapper .contacts__button, .wrapper .rostov-on-don__aside, .wrapper .scroll-down,
+.wrapper .section-2__nav, .wrapper .slide__img-1, .wrapper .slide__img-2, .wrapper .section-2__background-block,
+.wrapper .section-3__submit-form, .wrapper .section-3__checkbox, .wrapper .section-4, .wrapper .section-5__img-1,
+.wrapper .section-5__img-2, .wrapper .section-5__img-3, .wrapper .section-5__img-4,
+.wrapper .section-5__content__text__sub-title, .wrapper .section-5__content__text__list,
+.wrapper .steps__container, .wrapper .our-team__text-2, .wrapper .our-clients__container, .wrapper .footer,
+.wrapper .section-5, .wrapper .map__img {
+    display: none !important;
+  }
+}
+@media all and (max-width: 375px) {
+  .wrapper {
     /*---------*/
     /*SECTION-1*/
     /*---------*/
@@ -1172,15 +1187,6 @@ body {
     /*---------*/
     /*SECTION-8*/
     /*---------*/
-  }
-  .wrapper .header__nav, .wrapper .contacts__button, .wrapper .rostov-on-don__aside, .wrapper .scroll-down,
-.wrapper .section-2__nav, .wrapper .slide__img-1, .wrapper .slide__img-2, .wrapper .section-2__background-block,
-.wrapper .section-3__submit-form, .wrapper .section-3__checkbox, .wrapper .section-4, .wrapper .section-5__img-1,
-.wrapper .section-5__img-2, .wrapper .section-5__img-3, .wrapper .section-5__img-4,
-.wrapper .section-5__content__text__sub-title, .wrapper .section-5__content__text__list,
-.wrapper .steps__container, .wrapper .our-team__text-2, .wrapper .our-clients__container, .wrapper .footer,
-.wrapper .section-5, .wrapper .map__img {
-    display: none !important;
   }
   .wrapper .section-1 {
     height: 533px;
